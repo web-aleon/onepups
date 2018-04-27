@@ -514,11 +514,20 @@ h2.title {
     //   }
     // }
 
+    img {
+      visibility: hidden;
+    }
     .slick-active img{
+      visibility: visible;
       float: left;
       outline: none;
-      width: 100%;
+      width: 180px;
       height: auto;
+    }
+
+    .slick-active:first-child {
+      // width: 145px;
+      background: red;
     }
     .slick-center {
 

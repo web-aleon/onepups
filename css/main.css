@@ -612,11 +612,20 @@ h2.title {
           align-items: center;
 }
 
+.slider-section .slider img {
+  visibility: hidden;
+}
+
 .slider-section .slider .slick-active img {
+  visibility: visible;
   float: left;
   outline: none;
-  width: 100%;
+  width: 180px;
   height: auto;
+}
+
+.slider-section .slider .slick-active:first-child {
+  background: red;
 }
 
 .slider-section .slider .slick-active.slick-center img {
